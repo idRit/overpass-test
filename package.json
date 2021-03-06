@@ -1,0 +1,23 @@
+{
+  "name": "qgistest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "leaflet-overpass-layer": "^2.8.3",
+    "ol": "^6.5.0",
+    "query-overpass": "^1.5.5"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
